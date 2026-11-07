@@ -1,0 +1,20 @@
+{
+  "name": "ts-xss-sanitize",
+  "version": "1.0.0",
+  "description": "XSS sanitizer with allowlist-based HTML parsing",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx main.ts"
+  },
+  "keywords": ["typescript", "xss", "sanitizer", "security", "web"],
+  "author": "Mahmoud ElNemer <sultanelnemer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElNeMeR70/ts-xss-sanitize.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
